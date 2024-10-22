@@ -1,0 +1,12 @@
+n=int(input())
+a=0
+b=1
+while(a*b<=n):
+    if(a*b==n):
+        print("YES")
+        break
+    else:
+        a=a+1
+        b=b+1
+if(a*b>n):
+    print("NO")
